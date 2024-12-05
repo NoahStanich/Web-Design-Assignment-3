@@ -1,0 +1,208 @@
+/************* your name: 
+
+INSTRUCTIONS:
+Comments starting with TO-DO have been included in this file to describe the needed styling: please translate these to the appropriate CSS declarations. 
+
+Comments starting with TO-DO may be left in for reference or removed entirely: all other comments should be left as-is for ease of review.
+
+You are discouraged from changing any provided CSS.
+
+***** colour palette: *****
+- mustard yellow (used for header, footer, and buttons): #E5AF42
+- cornflower blue (used for hover states): #4278e5
+
+*/
+
+
+/************* site defaults *************/
+
+body {
+    width: 950px;
+    margin: 0 auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.flex {
+    display: flex;
+} 
+
+/************* site-wide text styling *************/
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+    padding-bottom: 12px;
+}
+
+.large-text {
+    font-size: 24px;
+}
+
+.fake-button {
+    background-color: #E5AF42;
+    text-align: center;
+    line-height: 3;
+    border: 1px solid black;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
+
+/************* header/footer styling *************/
+
+header {
+    background-color: #E5AF42;
+    height: 150px;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+footer {
+    background-color: #E5AF42;
+    padding-top: 50px;
+    height: 60px;
+    padding: 26px;
+    font-weight: 200;
+    text-align: center;
+}
+
+header img {
+    height: 100px;
+    width: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+}
+
+header .flex {
+    justify-content: center;
+}
+
+/************* index page *************/
+
+.index img {
+    width: 300px;
+    padding-left: 25px;
+    padding-bottom: 50px;
+}
+
+.index h2 {
+    line-height: 36px;
+}
+
+.index p {
+    padding-bottom: 12px;
+}
+
+.index .fake-button {
+    width: 250px;
+    margin-right: 150px;
+}
+
+.index .flex {
+    justify-content: center;
+}
+
+/************* bookings page *************/
+
+.booking-page {
+    width: 600px;
+    font-size: 18px;
+    text-align: center;;
+}
+
+.booking-page .flex {
+    justify-content: center;
+}
+
+.booking-page li {
+    padding-bottom: 12px;
+    padding-top: 24px;
+    margin: 24px;
+    border: 1px solid black;
+}
+
+.booking-page li:hover {
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
+
+.booking-page .small-button {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.booking-page .small-button:hover {
+    text-decoration: underline;
+    background-color: #4278e5;
+    color: white;
+    cursor: pointer;
+}
+
+.booking-page .top-margin {
+    padding-top: 24px;
+    padding-bottom: 12px;
+}
+
+.booking-page .fake-button {
+    width: 200px;
+}
+
+.clicked {
+    background-color: #E5AF42;
+}
+
+/************* contact page *************/
+
+.contact {
+    height: 420px;
+    text-align: center;
+}
+
+.contact label {
+    width: 150px;
+    text-align: right;
+    padding-right: 24px;
+}
+
+.contact input {
+    width: 300px;
+    font-family: 'Montserrat', 'sans-serif';
+    line-height: 24px;
+    font-size: 16px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+}
+
+.contact textarea {
+    height: 150px;
+    width: 245px;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+}
+
+.contact button {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 24px;
+    font-size: 16px;
+    border: 1px solid black;
+    margin-bottom: 24px;
+}
